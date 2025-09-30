@@ -8,6 +8,16 @@ header {
     height: 33.3vh;
     background-color: rgb(74, 195, 235);
     grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+nav {
+    background-color: #b3d8fd;
+    grid-column: 2;
+    grid-row: 2;
+    height: 3vh;
 }
 
 main {
@@ -34,10 +44,20 @@ body {
     display: grid;
     grid-template-colums: auto 20%;
     grid-template-area:
-        
-
 }
 
 header {
-    grid-area
+    grid-area: header;
+    backgroundcolor: blauw;
+    display: grid;
+    grid-template-colums: auto 250px;
+}
+
+nav {
+    backgroundcolor: blue;
+    align-self: center;
+}
+
+main {
+    grid-area: main
 }

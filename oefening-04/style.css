@@ -1,0 +1,32 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 2vh;
+    padding: 1rem;
+}
+
+section {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+
+section:nth-child(odd) {
+    background-color: yellow;
+}
+
+section:nth-child(even) {
+    background-color: green;
+}
+
+section:last-child {
+    background-color: red;
+}
+
+section:first-child {
+    background-color: blue;
+}
