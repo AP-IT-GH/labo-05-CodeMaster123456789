@@ -1,0 +1,28 @@
+body {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
+}
+
+header {
+    height: 33.3vh;
+    background-color: rgb(74, 195, 235);
+    grid-column: 1/-1;
+}
+
+main {
+    height: 33.3vh;
+    background-color: rgb(98, 143, 171);
+    grid-column: 1;
+}
+
+aside {
+    grid-column: 2;
+    background-color: rgb(17, 100, 188);
+}
+
+footer{
+    height: 33.3vh;
+    background-color: rgb(141, 185, 212);
+    grid-column: 1/-1;
+}
